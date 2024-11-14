@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab9_ISRPO", "lab9_ISRPO\lab9_ISRPO.csproj", "{ECFEC18D-8EEF-465C-B601-6B43EBE3D4EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECFEC18D-8EEF-465C-B601-6B43EBE3D4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFEC18D-8EEF-465C-B601-6B43EBE3D4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFEC18D-8EEF-465C-B601-6B43EBE3D4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFEC18D-8EEF-465C-B601-6B43EBE3D4EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9006B98-97B3-4BE0-A5FB-41D3708AFA92}
+	EndGlobalSection
+EndGlobal
