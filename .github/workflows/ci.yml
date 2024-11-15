@@ -19,9 +19,12 @@ jobs:
                   dotnet-version: '8.0' 
             - name: Build app
               run: dotnet build ./lab9_ISRPO/lab9_ISRPO.csproj
-    test-debug: 
+    test: 
         needs: build
         runs-on: windows-latest
+        strategy:
+            matrix:
+                configuration: [Debug, Release]
         steps:
             - name: Checkout code
               uses: actions/checkout@v4
@@ -30,16 +33,4 @@ jobs:
               with:
                   dotnet-version: '8.0' 
             - name: Run test
-              run: dotnet test ./lab9_ISRPO/lab9_ISRPO.csproj --configuration Debug
-    test-realese: 
-        needs: build
-        runs-on: windows-latest
-        steps:
-            - name: Checkout code
-              uses: actions/checkout@v4
-            - name: Setup .NET
-              uses: actions/setup-dotnet@v3
-              with:
-                  dotnet-version: '8.0' 
-            - name: Run test
-              run: dotnet test ./lab9_ISRPO/lab9_ISRPO.csproj  --configuration Release
+              run: dotnet test ./lab9_ISRPO/lab9_ISRPO.csproj --configuration ${{matrix.configuration }}
