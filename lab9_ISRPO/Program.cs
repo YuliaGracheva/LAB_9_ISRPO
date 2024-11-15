@@ -1,22 +1,24 @@
 ﻿using System;
-
-class Program
+namespace lab9_ISRPO
 {
-    static void Main(string[] args)
+    public class Program
     {
-        string name = GetInput("Введите ваше имя: ");
-        string age = GetInput("Введите ваш возраст: ");
-        PrintGreeting(name, age);
-    }
+        static void Main(string[] args)
+        {
+            string name = GetInput("Введите ваше имя: ");
+            string age = GetInput("Введите ваш возраст: ");
+            PrintGreeting(name, age);
+        }
 
-    public static string GetInput(string prompt)
-    {
-        Console.Write(prompt);
-        return Console.ReadLine();
-    }
+        public static string GetInput(string prompt)
+        {
+            Console.Write(prompt);
+            return Console.ReadLine();
+        }
 
-    public static void PrintGreeting(string name, string age)
-    {
-        Console.WriteLine($"Привет, {name}! Вам {age} лет.");
+        public static void PrintGreeting(string name, string age)
+        {
+            Console.WriteLine($"Привет, {name}! Вам {age} лет.");
+        }
     }
 }

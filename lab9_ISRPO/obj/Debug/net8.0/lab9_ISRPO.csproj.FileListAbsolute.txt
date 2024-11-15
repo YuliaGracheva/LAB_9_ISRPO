@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\bin\Debug\net8.0\lab9_ISRPO.exe
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\bin\Debug\net8.0\lab9_ISRPO.deps.json
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\bin\Debug\net8.0\lab9_ISRPO.runtimeconfig.json
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\bin\Debug\net8.0\lab9_ISRPO.dll
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\bin\Debug\net8.0\lab9_ISRPO.pdb
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\obj\Debug\net8.0\lab9_ISRPO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\obj\Debug\net8.0\lab9_ISRPO.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\obj\Debug\net8.0\lab9_ISRPO.AssemblyInfo.cs
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\obj\Debug\net8.0\lab9_ISRPO.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\obj\Debug\net8.0\lab9_ISRPO.sourcelink.json
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\obj\Debug\net8.0\lab9_ISRPO.dll
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\obj\Debug\net8.0\refint\lab9_ISRPO.dll
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\obj\Debug\net8.0\lab9_ISRPO.pdb
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\obj\Debug\net8.0\lab9_ISRPO.genruntimeconfig.cache
+C:\Users\user\Desktop\lab9_ISRPO\lab9_ISRPO\obj\Debug\net8.0\ref\lab9_ISRPO.dll
