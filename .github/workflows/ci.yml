@@ -34,3 +34,8 @@ jobs:
                   dotnet-version: '8.0' 
             - name: Run test
               run: dotnet test ./lab9_ISRPO/lab9_ISRPO.csproj --configuration ${{matrix.configuration }}
+    analyze:
+        needs: build
+        runs-on: windows-latest
+        steps:
+            
