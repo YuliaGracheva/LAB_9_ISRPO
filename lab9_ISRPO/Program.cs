@@ -4,10 +4,19 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("Введите ваше имя: ");
-        string name = Console.ReadLine();
-        Console.Write("Введите ваш возраст: ");
-        string age = Console.ReadLine();
+        string name = GetInput("Введите ваше имя: ");
+        string age = GetInput("Введите ваш возраст: ");
+        PrintGreeting(name, age);
+    }
+
+    public static string GetInput(string prompt)
+    {
+        Console.Write(prompt);
+        return Console.ReadLine();
+    }
+
+    public static void PrintGreeting(string name, string age)
+    {
         Console.WriteLine($"Привет, {name}! Вам {age} лет.");
     }
 }
