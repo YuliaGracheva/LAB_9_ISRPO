@@ -1,1 +1,4 @@
+name: lab9_ISRPO
+on: [push, pull_request]
 
+jobs:
