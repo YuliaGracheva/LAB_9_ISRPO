@@ -18,7 +18,7 @@ jobs:
               with:
                   dotnet-version: '8.0' 
             - name: Build app
-              run: dotnet build src/lab9_ISRPO.csproj
+              run: dotnet build ../../lab9_ISRPO/lab9_ISRPO.csproj
     test: 
         needs: build
         runs-on: windows-latest
