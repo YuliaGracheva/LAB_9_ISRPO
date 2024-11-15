@@ -30,4 +30,4 @@ jobs:
               with:
                   dotnet-version: '8.0' 
             - name: Run test
-              run: dotnet test src/lab9_ISRPO.TestProject1.csproj
+              run: dotnet test ./lab9_ISRPO/lab9_ISRPO.csproj
